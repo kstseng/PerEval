@@ -394,10 +394,10 @@ data2uanbao <- function(data){
     data_final = cbind(data_me[,1:6], psn$proc_time, psn$wait_time, psn$proc_time+psn$wait_time, 
                        div$proc_time, div$wait_time, div$proc_time+div$wait_time,
                        dep$proc_time, dep$wait_time, dep$proc_time+dep$wait_time)
-    colnames(data_final) = c("doc","month","dep","div","person","status",
-                             "個人處理時間","個人等待時間","個人總時間",
-                             "組別處理時間","組別等待時間","組別總時間",
-                             "處室處理時間","處室等待時間","處室總時間")
+    colnames(data_final) = iconv(c("doc","month","dep","div","person","status",
+                                   "個人處理時間","個人等待時間","個人總時間",
+                                   "組別處理時間","組別等待時間","組別總時間",
+                                   "處室處理時間","處室等待時間","處室總時間"),"UTF-8")
     return(data_final)
   }
   
