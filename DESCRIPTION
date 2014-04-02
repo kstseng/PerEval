@@ -1,0 +1,9 @@
+Package: PerEval
+Type: Package
+Title: Performance Evalulation
+Version: 1.0
+Date: 2014-04-02
+Author: K.S. Tseng
+Maintainer: K.S. Tseng <ddd7975@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: GPL (>= 3)
