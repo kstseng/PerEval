@@ -3,7 +3,6 @@ Performance and Evaluation
 
 - Author: K. S. Tseng
 - Contributor: K. S. Tseng
-- URL: http://chao.stat.nthu.edu.tw/blog/
 
 
 ### Run the development version
