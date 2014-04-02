@@ -7,3 +7,5 @@ Author: K.S. Tseng
 Maintainer: K.S. Tseng <ddd7975@gmail.com>
 Description: More about what it does (maybe more than one line)
 License: GPL (>= 3)
+LazyLoad: yes
+Encoding: UTF-8
